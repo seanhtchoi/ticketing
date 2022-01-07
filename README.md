@@ -73,6 +73,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
 
 skaffold dev
+# localhost
 
 skaffold delete
 ```
